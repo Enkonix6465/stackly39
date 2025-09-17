@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "role": "admin",
+      "username": "admin",
+      "email": "admin@enkonix.in",
+      "mobile": "1234567890",
+      "password": "admin123",
+      "createdAt": "2025-01-27T00:00:00.000Z",
+      "updatedAt": "2025-09-12T09:30:03.028Z",
+      "isApproved": true,
+      "approvalDate": "2025-01-27T00:00:00.000Z",
+      "approvedBy": "system",
+      "loginTime": "2025-09-12T09:30:03.027Z",
+      "lastActive": "2025-09-12T09:30:03.027Z"
+    },
+    {
+      "role": "user",
+      "username": "Jayasri",
+      "email": "jayasrim226@gmail.com",
+      "mobile": "1234567890",
+      "password": "123456",
+      "createdAt": "2025-09-12T05:36:25.514Z",
+      "updatedAt": "2025-09-17T05:04:55.905Z",
+      "loginTime": "2025-09-17T05:04:55.904Z",
+      "logoutTime": "-",
+      "lastActive": "2025-09-17T05:04:55.904Z"
+    },
+    {
+      "role": "user",
+      "username": "Keerthi Y.D",
+      "email": "keerthi@gmail.com",
+      "mobile": "",
+      "password": "123456",
+      "createdAt": "2025-09-12T09:04:55.344Z",
+      "updatedAt": "2025-09-12T09:04:55.344Z",
+      "loginTime": "2025-09-12T09:04:55.307Z",
+      "logoutTime": "-",
+      "lastActive": "2025-09-12T09:04:55.307Z"
+    },
+    {
+      "role": "admin",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "mobile": "1234567890",
+      "password": "adminn",
+      "createdAt": "2025-09-12T09:27:50.399Z",
+      "updatedAt": "2025-09-12T09:27:50.399Z",
+      "isApproved": true,
+      "approvalDate": "2025-09-12T09:27:50.399Z",
+      "approvedBy": "system"
+    }
+  ],
+  "adminRequests": [],
+  "currentUser": {
+    "role": "user",
+    "username": "Jayasri",
+    "email": "jayasrim226@gmail.com",
+    "mobile": "1234567890",
+    "password": "123456",
+    "createdAt": "2025-09-12T05:36:25.514Z",
+    "updatedAt": "2025-09-17T05:04:55.897Z",
+    "loginTime": "2025-09-17T05:04:55.897Z",
+    "logoutTime": "-",
+    "lastActive": "2025-09-17T05:04:55.897Z"
+  },
+  "lastUpdated": "2025-09-17T05:04:55.905Z"
+}

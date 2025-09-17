@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Test</title>
+</head>
+<body>
+    <h1>Login Test</h1>
+    <form id="loginForm">
+        <div>
+            <label>Email:</label>
+            <input type="email" id="email" value="admin@gmail.com" required>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" id="password" value="adminn" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+    
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const resultDiv = document.getElementById('result');
+            
+            try {
+                const response = await fetch('/api/auth', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email, password }),
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    resultDiv.innerHTML = `<p style="color: green;">SUCCESS: ${JSON.stringify(result, null, 2)}</p>`;
+                } else {
+                    resultDiv.innerHTML = `<p style="color: red;">ERROR: ${JSON.stringify(result, null, 2)}</p>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<p style="color: red;">NETWORK ERROR: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
