@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import Head from 'next/head';
 import { Button } from '@/components/ui/button';

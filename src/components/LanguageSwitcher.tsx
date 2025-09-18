@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { useLanguage, Language } from '../contexts/LanguageContext';
 import { ChevronDown, Globe } from 'lucide-react';

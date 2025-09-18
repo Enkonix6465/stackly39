@@ -7,12 +7,12 @@
       "mobile": "1234567890",
       "password": "admin123",
       "createdAt": "2025-01-27T00:00:00.000Z",
-      "updatedAt": "2025-09-12T09:30:03.028Z",
+      "updatedAt": "2025-09-18T05:27:54.047Z",
       "isApproved": true,
       "approvalDate": "2025-01-27T00:00:00.000Z",
       "approvedBy": "system",
-      "loginTime": "2025-09-12T09:30:03.027Z",
-      "lastActive": "2025-09-12T09:30:03.027Z"
+      "loginTime": "2025-09-18T05:27:54.046Z",
+      "lastActive": "2025-09-18T05:27:54.046Z"
     },
     {
       "role": "user",
@@ -21,10 +21,10 @@
       "mobile": "1234567890",
       "password": "123456",
       "createdAt": "2025-09-12T05:36:25.514Z",
-      "updatedAt": "2025-09-17T06:08:05.450Z",
-      "loginTime": "2025-09-17T06:08:05.449Z",
+      "updatedAt": "2025-09-18T05:32:27.691Z",
+      "loginTime": "2025-09-18T05:32:27.691Z",
       "logoutTime": "-",
-      "lastActive": "2025-09-17T06:08:05.449Z"
+      "lastActive": "2025-09-18T05:32:27.691Z"
     },
     {
       "role": "user",
@@ -59,10 +59,10 @@
     "mobile": "1234567890",
     "password": "123456",
     "createdAt": "2025-09-12T05:36:25.514Z",
-    "updatedAt": "2025-09-17T06:08:05.444Z",
-    "loginTime": "2025-09-17T06:08:05.444Z",
+    "updatedAt": "2025-09-18T05:32:27.685Z",
+    "loginTime": "2025-09-18T05:32:27.685Z",
     "logoutTime": "-",
-    "lastActive": "2025-09-17T06:08:05.444Z"
+    "lastActive": "2025-09-18T05:32:27.685Z"
   },
-  "lastUpdated": "2025-09-17T06:08:05.450Z"
+  "lastUpdated": "2025-09-18T05:32:27.691Z"
 }
